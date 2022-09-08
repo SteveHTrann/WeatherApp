@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+      
+
+}
+
+
+body{
+    display: flex; /* Refer to flexbox cheat sheet*/
+    justify-content: center; /* centers x axis*/
+    align-items: center; /* centers y axis*/
+    height: 100vh; /* vh is veiwport height of the device using this app*/
+    margin: 0%;
+    background-color: gray;
+    font-family: 'Open Sans', sans-serif;
+   background-image: url("https://source.unsplash.com/1600x900/?weather");  /* revisit to change this accordingly */
+    font-size: 120%;
+
+
+}
+
+.card{
+    background-color: #000d00;
+    opacity: 90%;
+    color: white;
+    padding: 2em;  /*by default, font size is 16px, so 1em = 16px. em are easier to edit to scale than pixs*/
+    border-radius: 1em ;
+    width: 60vh;
+    margin: 1em; /* using this so then the card will never touch the edges if viewport is small*/
+}
+
+.weather{
+    justify-content: center;
+}
+
+/* .weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+} */
+
+/* .weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+} */
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 1% 0 1% ;
+}
+
+    .button{
+        margin: .5em;
+        border-radius: 50%;
+        height: 2.5em;
+        width: 2.5em;
+        outline: none;
+
+    }
+
+
+    input.search-bar{
+        border: none;
+        outline: none;
+        padding: .5em 1em;
+        border-radius: 10px;
+        background: #7c7c7c2b ;
+        color: white;
+        font-family: inherit; /*this lets you inherit from the parent, which is open sans right now*/
+        font-size: 120%;
+        width: 85%;
+         margin:0 1% 0 1%;
+
+    }
+
+.description{
+    text-transform: capitalize;
+}
