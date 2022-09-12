@@ -27,6 +27,16 @@ Once I decided that the API is something I will use, I'll add it into my javascr
 
 __________________________________________________________________________________________________________________________________________________________
 
+Optimization:
+
+Understandably, there is always room for improvement to the code. I have a habit of using the "enter" key to search for results so I added in some code at the bottom of the JS file to listen for the "enter" click on the keyboard.
+
+Another thing I would like to improve is the button on the web app itself.  The button icon can always be changed to look less silly, however, I kept it there to be refactored at a later time. The most important thing I wanted to get out of this is to ensure that all the content was laid out, and the behavior of the app is working as I intended it to be.  
+
+One last thing I want to add but didn't implement yet, is if the input was "undefined" or a city didn't exit, there would be an error message that would pop up.
+
+__________________________________________________________________________________________________________________________________________________________
+
 Lessons Learned:
 
 
