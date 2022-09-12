@@ -1,12 +1,21 @@
 # WeatherApp
 This is one of the first full-stack web app that I made using API's in my javascript. This weather app will search for any destination in the world and return back the weather in both Farenheit and Celcius.
 
-Link to project: 
+Link to project: https://itstheweatherforecast.netlify.app/
 
 
+<img width="1440" alt="Weather" src="https://user-images.githubusercontent.com/71569932/189572188-6e326f70-9ddd-442a-a1e3-04407abfb240.png">
+
+
+
+
+_______________________________________________________________________________________________________________________________________
 
 How It's Made:
+
 Tech used: HTML, CSS, JavaScript
+
+
 
 For the content, I would use HTML to get an idea of what users will see when interacting with the app. Once I got the content, I will then use CSS to style it so it would look good both on mobile and desktop.
 
@@ -16,6 +25,7 @@ Essentially, what I ended up doing was using postman.com to test out an API that
 
 Once I decided that the API is something I will use, I'll add it into my javascript file so I can begin keying into a specific property to get the value.
 
+__________________________________________________________________________________________________________________________________________________________
 
 Lessons Learned:
 
