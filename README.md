@@ -1,5 +1,4 @@
 # WeatherApp
-This is my weather app.
 
 Thank you for checking out my Weather app repository.
 
