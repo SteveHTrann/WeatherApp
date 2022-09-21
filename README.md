@@ -1,4 +1,4 @@
-# WeatherApp
+# WeatherApp ⛅
 This is one of the first full-stack web app that I made using API's in my javascript. This weather app will search for any destination in the world and return back the weather in both Farenheit and Celcius.
 
 Link to project: https://itstheweatherforecast.netlify.app/
@@ -11,7 +11,7 @@ Link to project: https://itstheweatherforecast.netlify.app/
 
 _______________________________________________________________________________________________________________________________________
 
-How It's Made:
+# How It's Made:
 
 Tech used: HTML, CSS, JavaScript
 
@@ -27,7 +27,7 @@ Once I decided that the API is something I will use, I'll add it into my javascr
 
 __________________________________________________________________________________________________________________________________________________________
 
-Optimization:
+# Optimization:
 
 Understandably, there is always room for improvement to the code. I have a habit of using the "enter" key to search for results so I added in some code at the bottom of the JS file to listen for the "enter" click on the keyboard.
 
@@ -37,7 +37,7 @@ One last thing I want to add but didn't implement yet, is if the input was "unde
 
 __________________________________________________________________________________________________________________________________________________________
 
-Lessons Learned:
+# Lessons Learned:
 
 
 To make a fully-responsive app, there is MANY SMALL PROCESSES that build upon one another.  Building an app requires non-stop planning, testing, coding, and implementing to ensure the final product will be stable for use. Additionally, the final product will HOPEFULLY not break while undergoing updates for improvements. 
